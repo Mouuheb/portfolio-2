@@ -1,0 +1,79 @@
+.skill{
+    /* background-color: aqua; */
+    height: 60vh;
+    /* width: 100%; */
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10rem 8rem;
+}
+
+
+.skill .p1{
+    width: 40%;
+    /* background-color: azure; */
+}
+
+.skill .p1 .text-cnt{
+    box-sizing: content-box;
+    width: 50%;
+    /* background-color: aqua; */
+    
+    overflow-wrap: break-word;
+}
+
+.skill .p1 .text-cnt h3{
+    color: var(--color-1);
+}
+
+.skill .p1 .text-cnt .btn-cnt .btn{
+    border-radius: 1rem;
+    color: var(--color-1);
+    border: solid 2px var(--color-1);
+    /* height: 7vh; */
+    /* width: 10vw; */
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.skill .p1 .text-cnt .btn-cnt .btn-pr{
+    border-radius: 1rem;
+    background-color:  var(--color-1);
+    color: var(--color-3);
+    /* height: 7vh; */
+    /* width: 10vw; */
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.skill .p1 .text-cnt p{
+    margin-bottom: 3rem;
+}
+
+
+.skill .p2{
+    margin-top: 3rem;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.skill .p2 .cnt{
+    margin-bottom: 3rem;
+    /* background-color: aqua; */
+}
+
+.skill .p3{
+    margin-top: 6rem;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.icon{
+    color: var(--color-1);
+}

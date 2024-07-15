@@ -1,0 +1,106 @@
+.review{
+    /* background-color: aqua; */
+    height: 60vh;
+    /* width: 100%; */
+    margin-top: 12vh;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-between; */
+    margin: 10rem 6rem;
+}
+
+
+.review .p1{
+    width: 40%;
+    /* background-color: azure; */
+}
+
+.review .p1 .text-cnt{
+    box-sizing: content-box;
+    width: 50%;
+    /* background-color: aqua; */
+    
+    overflow-wrap: break-word;
+}
+
+.review .p1 .text-cnt h3{
+    color: var(--color-1);
+}
+
+.review .comments{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    
+    height: 20vh;
+    width: 100%;
+}
+
+.review .comments .comment{
+    margin: 0 2vw;
+    /* background-color: blueviolet; */
+    width: 25vw;
+    height: 100%;
+    /* border-radius: 2rem; */
+}
+.review .comments .comment .starts{
+    /* background-color: chartreuse; */
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+    
+    /* text-align: center; */
+}
+
+.review .comments .comment .starts .star{
+    margin-top: 1vh;
+    color: var(--color-4);
+}
+.review .comments .comment .p{
+    overflow-wrap: break-word;
+}
+
+.review .comments .comment .p3{
+    display: flex;
+    flex-direction: row;
+    /* background-color: chocolate; */
+}
+.review .comments .comment .img-cnt{
+    /* background-color: aquamarine; */
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.review .comments .comment .img-cnt img{
+    /* height: 3rem; */
+    width: 3rem;
+    border-radius: 5rem;
+}
+
+.review .comments .comment  .txt{
+    margin-left: 1rem;
+
+}
+
+.review .p0{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+.review .p0 .fl .pr,.review .p0 .fl .nx{
+    color: var(--color-3);
+    font-size: x-large;
+    margin-left: 1rem ;
+    color: darkgrey;
+
+}
+
+.review .p0 .fl .pr:hover,.review .p0 .fl .nx :hover{
+color: var(--color-2);
+}

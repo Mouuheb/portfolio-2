@@ -1,0 +1,97 @@
+.contact{
+    /* background-color: aqua; */
+    height: 130vh;
+    /* width: 100%; */
+    margin-top: 12vh;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-between; */
+    margin: 10rem 6rem;
+    text-align: center;
+}
+.contact .p1 .text-cnt{
+    margin-bottom: 30vh;
+}
+
+.contact .p2 {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.contact .p2 .contact-so{
+    /* background-color: blueviolet; */
+    width: 30%;
+}
+
+.contact .p2 .contact-so .item{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    width: 90%;
+    height: 11vh;
+    margin: 2rem 0;
+}
+
+.contact .p2 .contact-so .item .icon-contact{
+    margin-right: 2rem;
+    background-color: var(--color-1);
+    /* height: 3rem; */
+    /* width: 3rem; */
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contact .p2 .contact-so .item .icon-contact .icon-con{
+    color: var(--color-3);
+    font-size: xx-large;
+}
+
+.contact .p2 .contact-so .item .cnt small{
+    color: gainsboro;
+}
+
+.contact .p2 .contact-so .item .cnt p{
+    color: var(--color-2);
+}
+
+.contact .p2 .message .row{
+    display: flex;
+    flex-direction: row
+}
+
+.contact .p2 .message .row input{
+    text-align: center;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    width: 20vw ;
+    color: aqua;
+    height: 7vh;
+    border-color: var(--color-3);
+    border: solid 1px gray;
+}
+
+.text-area{
+    text-align: center;
+    width: 95%;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    height: 30vh;
+    border: solid 1px gray;
+
+}
+
+.contact .p2 .message button{
+    color: var(--color-3) ;
+    background-color: var(--color-1);
+    border: none;
+    height: 8vh;
+    width: 12vw;
+    border-radius: 1rem;
+    margin-left: 71%;
+}
+
+
+

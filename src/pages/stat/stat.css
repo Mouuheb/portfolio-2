@@ -1,0 +1,20 @@
+.stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+}
+
+.stat .cnt{
+    align-items: center;
+    text-align: center;
+}
+
+.stat .cnt h1{
+    color: var(--color-1);
+}
+
+.stat hr{
+    color: var(--color-1);
+
+}
