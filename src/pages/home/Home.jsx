@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import { FaInstagram,FaXTwitter,FaLinkedinIn } from "react-icons/fa6";
+import data from '../../data/data';
 
 
 const Home = () => {
@@ -10,10 +11,10 @@ const Home = () => {
             <div className='text-cnt'>
                 <h3>Welcome</h3>
                 <h1>I Have <span className='dif'>Creative Design</span> Experience</h1>
-                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <p>{data.header.p}</p>
                 <div className='btn-cnt' >
-                    <a className='btn-pr' >contact me</a>
-                    <a className='btn' >Download CV</a>
+                    <a className='btn-pr' href={data.header.prBtn.path} >{data.header.prBtn.txt}</a>
+                    <a className='btn' href={data.header.btn.path} >{data.header.btn.txt}</a>
                 </div>
             </div>
             
@@ -23,7 +24,7 @@ const Home = () => {
             <div className='color-cnt' ></div>
             <div className='border' ></div>
             <div className='img-cnt'>
-                <img src='img/p1.png' />
+                <img src={data.header.img} />
             </div>
 
         </div>

@@ -27,7 +27,7 @@ const data = {
             
     },
     header:{
-        img:'img/f1.png',
+        img:'img/p1.png',
         p: 'I’m Tanvir, a creative Product Designer. I’ve been helping businesses to solve their problems with my design for 2 years.',
         
         prBtn:{
