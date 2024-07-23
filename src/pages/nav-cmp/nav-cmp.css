@@ -1,10 +1,16 @@
 .navcmp{
+    margin: 0 5%;
     top: 0;
     position: fixed;
     z-index: 9;
-    width: 99%;
+    width: 90%;
     height: 12vh ;
     background-color: var(--color-3);
+    /* background-color: aqua; */
+}
+.navcmp a{
+    text-decoration: none;
+    color: var(--color-2);
 }
 .navcmp .p1{
     
