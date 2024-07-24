@@ -1,6 +1,6 @@
 const data = {
     bg2:'img/bg-2.png',
-    bg2:'img/bg2.png',
+    bg3:'img/bg2.png',
     name:'Name',
     pageLink:[
         {
@@ -101,6 +101,33 @@ const data = {
             },
             {
                 img:'img/proj3.png'
+            },
+        ]
+    },
+    rev:{
+        name:'Reviews',
+        title:'Our Customer Say Something ',
+        diff:'About Us',
+
+
+        revs:[
+            {
+                img:'img/pp-2.png',
+                txt:'We will also facilitate the business marketing of these products with our SEO experts so that they become a ready to use website & help sell product from company',
+                p:'Amir Uddin',
+                pro:'UX UI',
+            },
+            {
+                img:'img/pp-2.png',
+                txt:'We will also facilitate the business marketing of these products with our SEO experts so that they become a ready to use website & help sell product from company',
+                p:'Amir Uddin',
+                pro:'UX UI',
+            },
+            {
+                img:'img/pp-2.png',
+                txt:'We will also facilitate the business marketing of these products with our SEO experts so that they become a ready to use website & help sell product from company',
+                p:'Amir Uddin',
+                pro:'UX UI',
             },
         ]
     },

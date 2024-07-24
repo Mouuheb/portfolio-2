@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10rem 8rem;
+    margin: 0rem 8rem;
 }
 
 
@@ -115,4 +115,10 @@
 
 .exp .controle .fl .pr:hover,.exp .controle .fl .nx :hover{
 color: var(--color-2);
+}
+
+
+.bg3-exp{
+    display: flex;
+    float: right;
 }

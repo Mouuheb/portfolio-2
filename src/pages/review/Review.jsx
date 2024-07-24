@@ -2,6 +2,7 @@ import React from 'react'
 import './review.css'
 import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 import { IoStar } from "react-icons/io5";
+import data from '../../data/data';
 const Review = () => {
   return (
     <div className='review' >
@@ -10,8 +11,8 @@ const Review = () => {
         
         <div className='p1' >
             <div className='text-cnt'>
-                <h3>Review</h3>
-                <h1>Why Hire me for next<span className='dif'>Project</span></h1>
+                <h3>{data.rev.name}</h3>
+                <h1>{data.rev.title}<span className='dif'>{data.rev.diff}</span></h1>
 
             </div>
             
@@ -23,7 +24,9 @@ const Review = () => {
         </div>
 
         <div className='comments'>
-            <div className='comment'>
+            {data.rev.revs.map((item,index)=>{
+                return(
+                    <div className='comment'>
                 <div className='starts' >
                 <IoStar className='star' />
                 <IoStar className='star' />
@@ -32,67 +35,23 @@ const Review = () => {
                 <IoStar className='star' />
                 </div>
                 <div className='p' >
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    <p>{item.txt}</p>
                 </div>
                 <div className='p3' >
                     <div className='img-cnt' >
-                        <img src='img/p1.png' />
+                        <img src={item.img} />
                     </div>
                     <div className='txt' >
-                    <span>name</span><br></br>
-                    <small>xxxxxxxxxxxxxxxxx</small>
+                    <span>{item.p}</span><br></br>
+                    <small>{item.pro}</small>
                     </div>
                     
                 </div>
             </div>
 
-            <div className='comment'>
-                <div className='starts' >
-                <IoStar className='star' />
-                <IoStar className='star' />
-                <IoStar className='star' />
-                <IoStar className='star' />
-                <IoStar className='star' />
-                </div>
-                <div className='p' >
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                </div>
-                <div className='p3' >
-                    <div className='img-cnt' >
-                        <img src='img/p1.png' />
-                    </div>
-                    <div className='txt' >
-                    <span>name</span><br></br>
-                    <small>xxxxxxxxxxxxxxxxx</small>
-                    </div>
-                    
-                </div>
-                
-            </div>
-
-            <div className='comment'>
-                <div className='starts' >
-                <IoStar className='star' />
-                <IoStar className='star' />
-                <IoStar className='star' />
-                <IoStar className='star' />
-                <IoStar className='star' />
-                </div>
-                <div className='p' >
-                    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                </div>
-                <div className='p3' >
-                    <div className='img-cnt' >
-                        <img src='img/p1.png' />
-                    </div>
-                    <div className='txt' >
-                    <span>name</span><br></br>
-                    <small>xxxxxxxxxxxxxxxxx</small>
-                    </div>
-                    
-                </div>
-            </div>
-
+                )
+            })}
+            
         </div>
 
         

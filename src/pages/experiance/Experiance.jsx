@@ -4,6 +4,7 @@ import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 import data from '../../data/data';
 const Experiance = () => {
   return (
+    <>
     <div className='exp'>
         <div className='p1' >
             <div className='text-cnt'>
@@ -44,7 +45,17 @@ const Experiance = () => {
             )})}
 
         </div>
+        
     </div>
+    <div>
+        <img src={data.bg3} />
+        {/* <div> */}
+            <img className='bg3-exp' src={data.bg2} />
+
+        
+        
+    </div>
+    </>
   )
 }
 

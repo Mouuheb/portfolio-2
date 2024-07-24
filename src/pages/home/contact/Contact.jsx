@@ -6,9 +6,11 @@ const Contact = () => {
     <div className='contact'>
         <div className='p1' >
             <div className='text-cnt'>
-                <h3>Review</h3>
+                <h3>Contact</h3>
                 <h1>Let’s Discuss Your <span className='dif'>Project</span></h1>
-                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                <p>
+                Let’s make something new, different and more meaningful or make thing more visual or conceptual
+                </p>
             </div>
             <div className='p2'>
                 <div className='contact-so' >

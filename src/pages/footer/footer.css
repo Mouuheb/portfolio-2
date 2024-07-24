@@ -25,6 +25,7 @@
 
 .footer .p1 .p2 .icn{
     background-color: var(--color-1);
+    color: var(--color-3);
     padding: 0.4rem;
     border-radius: 25rem;
    
