@@ -21,8 +21,8 @@ const Home = () => {
         </div>
         <div className='p2' >
             
-            <div className='color-cnt' ></div>
-            <div className='border' ></div>
+            {/* <div className='color-cnt' ></div> */}
+            {/* <div className='border' ></div> */}
             <div className='img-cnt'>
                 <img src={data.header.img} />
             </div>

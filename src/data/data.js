@@ -27,7 +27,7 @@ const data = {
             
     },
     header:{
-        img:'img/p1.png',
+        img:'img/pp-2.png',
         p: 'I’m Tanvir, a creative Product Designer. I’ve been helping businesses to solve their problems with my design for 2 years.',
         
         prBtn:{
@@ -44,5 +44,20 @@ const data = {
         
 
     },
+    stat:[
+        {
+            num:'80+',
+            p:'Satisfied clients',
+        },
+        {
+            num:'200+',
+            p:'Projects completed',
+        },
+        {
+            num:'99+',
+            p:'Reviews given',
+        },
+
+    ],
 };
 export default data;
