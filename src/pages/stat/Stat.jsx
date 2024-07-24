@@ -4,6 +4,7 @@ import data from '../../data/data'
 
 const Stat = () => {
   return (
+    <>
     <div className='stat' >
             {data.stat.map((item,index)=>{
                 return(
@@ -16,7 +17,12 @@ const Stat = () => {
                     </>
                 )
             })}
+            
     </div>
+    <div className='bg-stat'>
+        <img src={data.bg2} />
+    </div>
+    </>
   )
 }
 

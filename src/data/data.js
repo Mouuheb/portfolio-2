@@ -1,4 +1,5 @@
 const data = {
+    bg2:'img/bg-2.png',
     name:'Name',
     pageLink:[
         {

@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5rem 10rem;
+    margin-top: 5rem;
+    /* margin: 5rem 10rem; */
 }
 
 .stat .cnt{
+    margin:0 10rem;
     align-items: center;
     text-align: center;
 }
@@ -17,4 +19,8 @@
 .stat hr{
     color: var(--color-1);
 
+}
+.bg-stat{
+    display: flex;
+    float: right;
 }
