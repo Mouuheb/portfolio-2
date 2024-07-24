@@ -60,5 +60,31 @@ const data = {
         },
 
     ],
+    skill:{
+        name:'My Skills',
+        title:'Why Hire Me For Your Next ',
+        diff:'Project',
+
+        p:'I’m specialist in UI/UX Designe. My passion is designing & solving problems through user experience and research.',
+        btn:'Hire Me',
+
+        itemStat:[
+            {
+                txt:'Visual Design',
+                p:'Create user interface design with unique & modern ideas'
+            },
+            {
+                txt:'UX Research',
+                p:'Create digital user products with updated ideas'
+            },
+            {
+                txt:'Design Prototype',
+                p:'Create advance design prototype with Figma apps.'
+            },
+        ]
+    },
+    experiance:{
+        
+    }
 };
 export default data;
