@@ -5,6 +5,7 @@ import { IoStar } from "react-icons/io5";
 import data from '../../data/data';
 const Review = () => {
   return (
+    <>
     <div className='review' >
         <div className='p0'>
         
@@ -56,6 +57,15 @@ const Review = () => {
 
         
     </div>
+    <div>
+        <img src={data.bg3} />
+        {/* <div> */}
+            <img className='bg3-exp' src={data.bg2} />
+
+        
+        
+    </div>
+    </>
   )
 }
 
