@@ -1,5 +1,6 @@
 const data = {
     bg2:'img/bg-2.png',
+    bg2:'img/bg2.png',
     name:'Name',
     pageLink:[
         {
@@ -84,7 +85,24 @@ const data = {
         ]
     },
     experiance:{
-        
-    }
+        name:'Portfolio',
+        title:'My Creative Works Latest ',
+        diff:'Project',
+
+        p:'I have selected and mentioned here some of my latest projects to share with you.',
+        btn:'Show More',
+
+        proj:[
+            {
+                img:'img/pro1.png'
+            },
+            {
+                img:'img/proj2.png'
+            },
+            {
+                img:'img/proj3.png'
+            },
+        ]
+    },
 };
 export default data;
